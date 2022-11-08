@@ -1,7 +1,7 @@
 const task2 = require("./task2");
 
 
-function sumNaturalNumber(x, y, z) {
+function naturalNumberSum(x, y, z) {
     let sum = 0;
     for (i = 0; i < z; i++) {
       if (i % x === 0) {
@@ -14,4 +14,4 @@ function sumNaturalNumber(x, y, z) {
     return sum;
   }
 
-  module.exports.sumNaturalNumber=sumNaturalNumber;
+  module.exports.naturalNumberSum=naturalNumberSum;

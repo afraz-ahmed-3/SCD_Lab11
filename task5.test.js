@@ -5,5 +5,5 @@ test("Test case include", () => {
 });
 
 test("Test case not include", () => {
-    expect(elementPresent(31)).toBe(true);
+    expect(elementPresent(3)).toBe(true);
 });
